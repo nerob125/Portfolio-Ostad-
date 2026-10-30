@@ -1,0 +1,19 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+:focus-visible {
+  outline: 3px solid #2A4BFF;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
